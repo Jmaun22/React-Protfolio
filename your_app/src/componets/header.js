@@ -21,7 +21,7 @@ const header =() => {
                 </a>
             </li>
             <li className="header">
-                <a href="#work" className="header">Projects</a>
+                <a href="projects" className="header">Projects</a>
             </li>
             <li className="header">
                 <a href="https://docs.google.com/document/d/1-mGG8axQ1bcxLg4e2mdDjSaXXV9o34Syjy2F8czjwoM/edit?usp=sharing" className="header">Resume</a>

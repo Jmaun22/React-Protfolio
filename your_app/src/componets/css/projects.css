@@ -1,0 +1,29 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: 'white';
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 144px;
+
+}
+.project {
+    display: flex;
+   
+
+
+  
+ 
+ 
+}
