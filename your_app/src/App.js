@@ -1,34 +1,30 @@
-import React, { useCallback } from 'react';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 
+import React from 'react';
+// import './App.css';
+// import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 
-
-import './App.css';
-import particlesOptions from "./particles.json";
-import Header from "./componets/header";
-import Type from "./componets/typewritter";
-
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+// import About from './pages/about';
+// import Blogs from './pages/blogs';
+// import SignUp from './pages/signup';
+// import Contact from './pages/contact';
+  
 function App() {
-    const particlesInit = useCallback(main => {
-        loadFull(main);
-    }, [])
-
-    return (
-        <div className="App">
-          <Particles options={particlesOptions} init={particlesInit}/>
-      
-           <Header/> 
-            
-           
-            <header className="App-header">
-            <Type/>  
-          
-                
-              
-            </header>
-        </div>
-    );
+return (
+    <Router>
+    {/* <Navbar /> */}
+    <Routes>
+        <Route exact path='/'  element={<Home />} />
+        <Route path='/about' element={<About/>} />
+        {/* <Route path='/contact' element={<Contact/>} />
+        <Route path='/blogs' element={<Blogs/>} />
+        <Route path='/sign-up' element={<SignUp/>} /> */}
+    </Routes>
+    </Router>
+);
 }
-
+  
 export default App;
