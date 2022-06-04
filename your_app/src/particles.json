@@ -4,7 +4,7 @@
       "value": "#282c34"
     }
   },
-  "fpsLimit": 4,
+  "fpsLimit": 12,
   "interactivity": {
     "events": {
       "onClick": {
@@ -48,7 +48,7 @@
         "default": "bounce"
       },
       "random": false,
-      "speed": 6,
+      "speed": 2,
       "straight": false
     },
     "number": {
