@@ -24,10 +24,10 @@ const header =() => {
                 <a href="projects" className="header">Projects</a>
             </li>
             <li className="header">
-                <a href="https://docs.google.com/document/d/1-mGG8axQ1bcxLg4e2mdDjSaXXV9o34Syjy2F8czjwoM/edit?usp=sharing" className="header">Resume</a>
+                <a href="resume.pdf" className="header">Resume</a>
             </li>
             <li>
-                <a href="#contactme" className="header">Contact Me</a>
+                <a href="contact" className="header">Contact Me</a>
             </li>
           
         </ul>

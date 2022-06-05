@@ -21,7 +21,7 @@ const Home = () => {
           <Particles options={particlesOptions} init={particlesInit}/>
       
            <Header/> 
-           <h1>Projects</h1>
+           <h1 className="projectHeader">Projects</h1>
               <div className="project-container">
 
           

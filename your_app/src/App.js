@@ -11,7 +11,7 @@ import Projects from './pages/Projects.js';
 // import About from './pages/about';
 // import Blogs from './pages/blogs';
 // import SignUp from './pages/signup';
-// import Contact from './pages/contact';
+import Contact from './pages/Contact.js';
   
 function App() {
 return (
@@ -21,8 +21,8 @@ return (
         <Route exact path='/'  element={<Home />} />
         <Route path='/about' element={<About/>} />
         <Route path='/projects' element={<Projects/>} />
-        {/* <Route path='/blogs' element={<Blogs/>} />
-        <Route path='/sign-up' element={<SignUp/>} />  */}
+       <Route path='/contact' element={<Contact/>} />
+        {/* <Route path='/sign-up' element={<SignUp/>} />   */}
     </Routes>
     </Router>
 );
