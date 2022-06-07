@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/*  Establish variables */
+/* :root{
+
+} */
+
+/* Anchor tags no styling */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.holds-everything-technologies {
+  margin: 3.3rem;
+}
+
+.technologies-worked-display {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.holds-everything-icons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  margin-top: 1rem;
+}
+
+.tech-experience {
+  border: 1px solid #a17423;
+  padding: 2rem;
+  box-shadow: 0 0px 5px 1px #a17423;
+  transition: all 0.2s ease-in-out;
+  margin: 0.5rem;
+}
+
+.tech-experience:hover {
+  /* background-color: #A17423; */
+  transform: scale(1.2);
+  border: 3px solid #a17423;
+  /* box-shadow: 0 0px 40px 5px #fff; */
+  box-shadow: 0 0px 40px 5px #a17423;
+}
+.tech-experience:hover ~ .experience-icons {
+  color: #a17423;
+}
+
+.experience-icons {
+  font-size: 3em;
+  color: #fff;
+}
+
+/* .experience-icons:hover{
+    color: #A17423;
+} */
+
+.icons-width {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+}
+
+@media screen and (max-width: 520px) {
+  .holds-everything-technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .technologies-worked-display {
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .holds-everything-icons-div {
+    width: 90%;
+    /* margin: .5rem; */
+  }
+}
+
+@media screen and (max-width: 410px) {
+    .tech-experience{
+        padding: 1em;
+    }
+}
+@media screen and (max-width: 336px) {
+    .experience-icons{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 298px) {
+    .experience-icons{
+        font-size: 1.5em;
+    }
+    .tech-experience{
+        padding: .7em;
+    }
+}
