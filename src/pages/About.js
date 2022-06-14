@@ -33,13 +33,13 @@ const Home = () => {
 
 
             <h1> About </h1>
-            <p>Hi my name is Jesse I'm a Biology major who graduated from FSC.
-            I have expreince with researching the mananntees microbiome and experience as a Teaching Assistant for the Biology Department.
+            <p>Hi, my name is Jesse! I'm a Biology major who graduated from FSC.
+            I have experience with researching the manatee's stomach microbiome and experience as a Teaching Assistant for the Biology Department.
+                      
+    After graduation I attended Dental School at LECOM. Here I decided to shift gears in my career because web development allows me to continually develop and bring amazing applications to life. It challenges my creativity in ways I didn't imagine before.
+              I'm currently an aspiring web developer. I recently graduated from UCF's Web Development Bootcamp. Here are some of my projects; check them out!
 
-              I'm currently an aspiring web developer here are some of my projects check them out!
-              Hi! I'm Jesse and I recently graduated from a UCFs coding bootcamp. Before becoming a full stack web developer, I attended Dental School at LECOM. I decided to shift gears in my carreer because web development allows me to continually develop and bring amazing applications to life. It challenges my creativity in ways I didn't imagine before.
-
-In my free time I like playing disc golf, spend time with my family and enjoy the sun during an afternoon walk.</p>
+In my free time, I like playing disc golf, spending time with my family and enjoying the sun during an afternoon walk.</p>
       
           
                 
