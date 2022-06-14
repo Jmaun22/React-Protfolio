@@ -26,7 +26,7 @@ const Home = () => {
             <header >
 
             <div>
-                <img src="https://www.yourobserver.com/sites/default/files/styles/sliders_and_planned_story_image_870x580/public/113946_standard.jpeg?itok=ghko689-" alt=""/>
+                <img src="profile.jpeg" alt=""/>
             </div>
 
 
