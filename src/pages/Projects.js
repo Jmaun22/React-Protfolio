@@ -31,9 +31,9 @@ const Home = () => {
                 <div className='project'>
                     {/* <a>https://odisclemons.github.io/route-my-day/</a> */}
                     <img src="img/route1.png" alt='yoyo'></img>
-                    <h3>Route My Day</h3>
+                    <h3>Map My Route</h3>
                     <p>🛣️ Plan your day traveling!!</p>
-                    <a href="https://odisclemons.github.io/route-my-day/">
+                    <a href="https://jmaun22.github.io/route-my-day/">
                     <button className='checkit-out'>Check it out!!</button>
                     </a> 
 
@@ -41,24 +41,18 @@ const Home = () => {
 
 
                 <div className="project">
-                    <img src="img/plant1.png" alt="plant1"></img>
-                    <h3>Plant-a-Plant</h3>
-                    <p>🪴 Plan your home garden!!</p>
-                    <a href="https://agile-wildwood-01808.herokuapp.com/">
+                    <img src="img/cfucalc.jpg" alt="plant1"></img>
+                    <h3>CFU Calculator</h3>
+                    <p>🧫 Calculate your cfus!!</p>
+                    <a href="https://apps.apple.com/us/app/cfu-calculator/id1638715715">
                     <button className='checkit-out'>Check it out!!</button>
                     </a> 
 
 
                 </div>
 
-                <div className="project">
+             
 
-                    <img src="img/motivated1.png" alt="mot"></img>
-                    <h3>Motivated</h3>
-                    {/* <a>https://agile-wildwood-01808.herokuapp.com/</a> */}
-                    <p>🏆 Achieve your goals!</p>
-                    <button className='checkit-out'>Check it out!!</button>
-                </div>
 
             </div>
 
@@ -78,10 +72,10 @@ const Home = () => {
 
                     </div>
                     <div className="project">
-                        <img src="img/Calccpu.png"></img>
-                        <h3>Calculator</h3>
-                        <p>💻 A calculator!!</p>
-                        <a href="https://jmaun22.github.io/weather-API/">
+                        <img src="img/quickcards.jpg"></img>
+                        <h3>Quickards</h3>
+                        <p>📚 Digital flashcards!!</p>
+                        <a href="https://apps.apple.com/us/app/quickards/id6444228466?platform=iphone">
                     <button className='checkit-out'>Check it out!!</button>
                     </a> 
                     </div>
